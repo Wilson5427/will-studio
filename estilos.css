@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    background-color: #000000;
+}
+
+.encabezado {
+    background-color: #000000;
+    width: 100%;
+    border-bottom: 1px solid rgba(243, 231, 179, 0.2);
+}
+
+.contenedor {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #F3E7B3;
+    font-size: 45px;
+    font-weight: bold;
+    text-decoration: none;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.menu {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.menu a {
+    font-family: "times new roman";
+    color: #081aff;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: italic;
+    border-radius: 5px;
+}
+.menu a:last-child {
+    background-color: #ff5fa8; 
+    color: #1c1c1c;            
+    padding: 2px 2px;        
+    border-radius: 50px;      
+    font-style: italic;       
+}
+.hero {
+    background-color: #000000;
+    color: #f3e7b3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.etiqueta-rosa {
+    display: block;
+    color: #ff5fa8;
+    font-family: 'Anton', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.titulo-azul {
+    font-family: 'Anton', sans-serif;
+    font-size: 165px;
+    line-height: 0.85;
+    color: #081aff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.subtitulo-cursiva {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    font-size: 52px;
+    color: #f3e7b3;
+    margin-top: -12px;
+    margin-bottom: 24px;
+}
+
+.descripcion {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 17px;
+    line-height: 1.5;
+    max-width: 380px;
+    color: rgba(243, 231, 179, 0.85);
+    margin-bottom: 35px;
+}
+
+.botones-hero {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.btn-rosa-sombra {
+    background-color: #ff5fa8;
+    color: #1c1c1c;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 4px 4px 0px #f3e7b3;
+}
+
+.btn-borde {
+    border: 1px solid rgba(243, 231, 179, 0.5);
+    color: #f3e7b3;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.circulo-oliva {
+    width: 320px;
+    height: 320px;
+    background-color: #3d4220;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
